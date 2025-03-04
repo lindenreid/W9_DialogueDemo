@@ -856,7 +856,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -2836,7 +2836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactionDistance: 4
   _interactionPromptIcon: {fileID: 372765073}
-  _activeDialogueIcon: {fileID: 0}
+  _activeDialogueIcon: {fileID: 1357930828}
   _dialogue: {fileID: 414780161}
   _lines:
   - hey can u help me remember the name of this kpop song
