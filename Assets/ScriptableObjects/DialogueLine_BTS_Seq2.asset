@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8749ee526c3764441a3dfe98f4252100, type: 3}
+  m_Name: DialogueLine_BTS_Seq2
+  m_EditorClassIdentifier: 
+  _lines:
+  - so what's your favorite BTS song?
+  _thoughtBubbleSprite: {fileID: 21300000, guid: e0c44698ec01b428aac762741b07b29f, type: 3}
+  _playerReplyOptions:
+  - Butter
+  - 134340
+  _npcReplies:
+  - {fileID: 11400000, guid: 02d6b1511e70542928fb128fe7a07d98, type: 2}
+  - {fileID: 11400000, guid: d8d44f122dc3c47bab9463683d2fc8ba, type: 2}

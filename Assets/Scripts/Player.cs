@@ -6,13 +6,6 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float _forwardSpeed = 1.0f;
     [SerializeField] private float _turnSpeed = 1.0f;
-    [SerializeField] private Vector3 _playerCenter;
-
-    public Vector3 PlayerCenter {
-        get {
-            return transform.TransformPoint(_playerCenter);
-        }
-    }
 
     public static Player Instance { get; private set; } // singleton stuff
 
@@ -36,11 +29,5 @@ public class Player : MonoBehaviour
 
         transform.Translate(0, 0, translation);
         transform.Rotate(0, rotation, 0);
-    }
-
-    private void OnDrawGizmos ()
-    {
-        Gizmos.color = Color.magenta;
-        Gizmos.DrawSphere(PlayerCenter, 0.1f);
     }
 }
