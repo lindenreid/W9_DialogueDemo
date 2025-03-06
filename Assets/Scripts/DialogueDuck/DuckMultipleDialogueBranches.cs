@@ -24,6 +24,8 @@ public class DuckMultipleDialogueBranches : MonoBehaviour
 
     private void Update ()
     {
+        if(Player.Instance == null) return;
+
         if(Vector3.Distance(transform.position, Player.Instance.transform.position) < _interactionDistance)
         {
             _thoughtBubble.gameObject.SetActive(true);

@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class LookAtCamera : MonoBehaviour
 {
-    [SerializeField] private Camera _mainCamera;
-
     private void Update()
     {
-        transform.LookAt(_mainCamera.transform.position);
+        if(Player.Instance == null) return;
+        
+        transform.LookAt(Player.Instance._Camera.transform.position);
         transform.Rotate(0, 180, 0);
     }
 }

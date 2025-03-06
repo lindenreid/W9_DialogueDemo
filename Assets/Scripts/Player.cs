@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float _forwardSpeed = 1.0f;
     [SerializeField] private float _turnSpeed = 1.0f;
+    public Camera _Camera;
 
     public static Player Instance { get; private set; } // singleton stuff
 
